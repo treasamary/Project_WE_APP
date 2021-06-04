@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE APP</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light color: #D6DBDF">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+        <img src="images/logo.jpg" alt="pic" width="100" height="100"><strong><i> <b> The Human Bond</b> </i></strong>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><strong>Home</strong><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><strong>About</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><strong>Login</strong></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>        
+  <!-- Navbar Ends -->
+
+  <!-- background image -->
+  <img src="images/bgimg.jpg" alt="Cinque Terre" width="1500" height="400">
+  <!-- background image -->
+
+  <!-- text -->
+     <h1 class="ml6">
+      <span class="text-wrapper">
+        <span class="letters">Together WE Can</span>
+      </span>
+     </h1>
+  <!-- text -->
+    <br>
+  <br>
+  <br>
+
+
+  <!-- card -->
+    <div class = "feature prop">
+      <h2><strong>Modules</strong></h2>
+      <br>
+      <br>
+      <div class ="container">
+        <div class="card-deck">
+            <div class="card same">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbqmSaFhjZi6hWC-z1UZUt7tshBRwcNqWa3Im5-j3IrZYYerOpjNCmHO5kUFYkeFg1rDk&usqp=CAU" class="card-img-top" alt="">
+              <div class="card-body">
+                  <h5 class="card-title"><strong>Healthcare</strong></h5>
+                  <ul>
+                    <li>24*7 doctor consultancy</li>
+                    <li>Medicines</li>
+                    <li>Medical articles</li>
+                  </ul>
+                  
+              </div>
+              
+            </div>
+            <div class="card same">
+              <img src="https://www.teriin.org/sites/default/files/2020-10/covid19-nutrition-og.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                 <h5 class="card-title"><strong>Nutrition</strong></h5>
+                  <ul>
+                    <li>Food rationing</li>
+                    <li>Gov Schemes</li>
+                    <li>Food Quality</li>
+                  </ul>
+                 
+                </div>
+            
+          </div>
+          <div class="card same">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title"><strong>Education</strong></h5>
+                <ul>
+                  <li>Academics</li>
+                  <li>Co carricular activities</li>
+                  <li>Human Rights</li>
+                </ul>
+               
+            </div>
+             
+          </div>
+      </div>
+    </div>
+    <!-- card -->
+    <br>
+    <br>
+  </div>
+
+  <footer>
+    <div class = "copy">
+     <h4 >© 2021 WE APP</h4>
+    </div> 
+  </footer>
+
+
+
+    <script src="js/home.js"></script>
+</body>
+</html>
